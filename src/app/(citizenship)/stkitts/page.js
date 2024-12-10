@@ -10,7 +10,7 @@ import ProcessTimeline from "@/components/timeline/Timeline";
 import EligibilityRequirements from "@/components/requirements/Requirement";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
-const stkittsDetailsPrimary = () => {
+const StkittsDetailsPrimary = () => {
   const [program, setProgram] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -199,4 +199,4 @@ const stkittsDetailsPrimary = () => {
   );
 };
 
-export default stkittsDetailsPrimary;
+export default StkittsDetailsPrimary;
