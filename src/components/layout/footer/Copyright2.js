@@ -1,4 +1,5 @@
 import Social from "@/components/shared/socials/Social";
+import Link from "next/link";
 import React from "react";
 
 const Copyright2 = ({ style, copyright }) => {
@@ -34,7 +35,8 @@ const Copyright2 = ({ style, copyright }) => {
               <div className="copyright__right">
                 <ul>
                   <li>
-                    <a href="#">Privacy & Policy</a>
+                    <Link href="#">Privacy & Policy ||</Link>
+                    
                   </li>{" "}
                   <li>
                     <a href="#">||</a>
