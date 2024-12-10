@@ -1,4 +1,3 @@
-
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
@@ -11,7 +10,13 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
 };
 
-// Initialize Firebase
+// Temporary debug log
+console.log('Firebase config:', {
+  hasApiKey: !!process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  hasAuthDomain: !!process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  hasProjectId: !!process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID
+});
+
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
