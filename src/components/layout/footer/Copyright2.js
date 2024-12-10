@@ -22,7 +22,8 @@ const Copyright2 = ({ style, copyright }) => {
                 {style === 3 && !copyright ? (
                   "Orientheight"
                 ) : (
-                  <a href="/">ORIENTHEIGHT.</a>
+                  <Link href="/">ORIENTHEIGHT.</Link>
+                  
                 )}{" "}
                 All Right Reserved
               </p>
@@ -35,14 +36,17 @@ const Copyright2 = ({ style, copyright }) => {
               <div className="copyright__right">
                 <ul>
                   <li>
+                    
                     <Link href="#">Privacy & Policy ||</Link>
                     
                   </li>{" "}
                   <li>
-                    <a href="#">||</a>
+                    <Link href="#">||</Link>
+                    
                   </li>{" "}
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link href="#">Terms & Conditions</Link>
+                    
                   </li>
                 </ul>
               </div>
@@ -52,9 +56,10 @@ const Copyright2 = ({ style, copyright }) => {
       </div>
       {style === 4 ? (
         <div className="copyright__arrow">
-          <a href="#">
-            <i className="icofont-arrow-up"></i>
-          </a>
+          <Link href="#">
+          <i className="icofont-arrow-up"></i> 
+          </Link>
+          
         </div>
       ) : (
         ""
