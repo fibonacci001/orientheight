@@ -1,13 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',  // Add this line
   reactStrictMode: false,
   images: {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'res.cloudinary.com', // Cloudinary's domain
+        hostname: 'res.cloudinary.com',
       },
     ],
+    unoptimized: true,  // Add this line for static export
   },
   env: {
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,

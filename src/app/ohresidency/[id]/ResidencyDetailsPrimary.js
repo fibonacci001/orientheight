@@ -1,5 +1,6 @@
 "use client";
-import ProjectSidebar from "@/components/shared/sidebars/ProjectSidebar";
+
+import ResidencySidebar from "@/components/layout/main/residencysidebar";
 import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
@@ -8,10 +9,12 @@ import { db } from "@/libs/firebase/clientApp";
 import { doc, getDoc } from "firebase/firestore";
 import ThemeController from "@/components/shared/others/ThemeController";
 import ProcessTimeline from "@/components/timeline/Timeline";
-import EligibilityRequirements from "@/components/requirements/Requirement";
+import ResidencyTimeline from "@/components/layout/main/residencyTimeline";
+import Residencyfamilybenefit from "@/components/layout/main/residencyfamilybenefit";
+
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
-const ProjectDetailsPrimary = () => {
+const ResidencyDetailsPrimary = () => {
   const [program, setProgram] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -19,12 +22,13 @@ const ProjectDetailsPrimary = () => {
   
   // Keeping the currentProject state for UI compatibility
   const [currentProject, setCurrentProject] = useState(null);
+  const [activeImageTitle, setActiveImageTitle] = useState(program?.images?.[0]?.title || '');
 
   useEffect(() => {
     const fetchProgramDetails = async () => {
       try {
         setLoading(true);
-        const programRef = doc(db, "services", "citizenship", "programs", id);
+        const programRef = doc(db, "services", "Residency", "programs", id);
         const programSnap = await getDoc(programRef);
 
         if (!programSnap.exists()) {
@@ -83,77 +87,85 @@ const ProjectDetailsPrimary = () => {
       <div className="container">
         <div className="project__details__bottom__border">
           <div className="row">
-            {program && <ProjectSidebar OneLineInfo={program.OneLineInfo} />}
+            {program && <ResidencySidebar OneLineInfo={program.OneLineInfo} />}
             <div className="col-xl-8 col-xl-8 col-lg-8 col-md-12 col-12">
               <div className="project__details__wraper">
-                <div
-                  className="projects__tap__wrapper"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                >
-                  <div
-                    className="tab-content tab__content__wrapper"
-                    id="myTabContent"
-                  >
-                    {program.images?.map((image, idx) => (
-                      <div
-                        key={idx}
-                        className={`tab-pane fade ${idx === 0 ? "active show" : ""}`}
-                        id={`projects__${idx}`}
-                        role="tabpanel"
-                        aria-labelledby={`projects__${idx}`}
-                      >
-                        <div className="projects__img">
-                          <Image 
-                            src={image} 
-                            alt={program.name}
-                            width={800}
-                            height={500}
-                            // placeholder="blur"
-                          />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="row">
-                    <div className="col-xl-12">
-                      <ul
-                        className="nav projects__nav__wrap"
-                        id="myTab"
-                        role="tablist"
-                      >
-                        {program.images?.map((image, idx) => (
-                          <li
-                            key={idx}
-                            className="nav-item"
-                            role="presentation"
-                          >
-                            <button
-                              className={`projects__tab__link ${idx === 0 ? "active" : ""}`}
-                              data-bs-toggle="tab"
-                              data-bs-target={`#projects__${idx}`}
-                            >
-                              <Image 
-                                src={image}
-                                alt={program.name}
-                                width={100}
-                                height={100}
-                              />
-                            </button>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
 
-                <div
-                  className="service__details__heading"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                >
-                  <h4>{program.images.title}</h4>
-                </div>
+          
+
+<div
+  className="projects__tap__wrapper"
+  data-aos="fade-up"
+  data-aos-duration="1500"
+>
+  
+  <div
+    className="tab-content tab__content__wrapper"
+    id="myTabContent"
+  >
+    {program.images?.map((image, idx) => (
+      <div
+        key={idx}
+        className={`tab-pane fade ${idx === 0 ? "active show" : ""}`}
+        id={`projects__${idx}`}
+        role="tabpanel"
+        aria-labelledby={`projects__${idx}`}
+      >
+        <div className="projects__img">
+          <Image 
+            src={image.image} 
+            alt={program.name}
+            width={800}
+            height={500}
+            // placeholder="blur"
+          />
+        </div>
+      </div>
+    ))}
+  </div>
+  <div className="row">
+    <div className="col-xl-12">
+      <ul
+        className="nav projects__nav__wrap"
+        id="myTab"
+        role="tablist"
+      >
+        {program.images?.map((image, idx) => (
+          <li
+            key={idx}
+            className="nav-item"
+            role="presentation"
+          >
+            <button
+              className={`projects__tab__link ${idx === 0 ? "active" : ""}`}
+              data-bs-toggle="tab"
+              data-bs-target={`#projects__${idx}`}
+              onClick={() => setActiveImageTitle(image.title)}
+            >
+              <Image 
+                src={image.image}
+                alt={program.name}
+                width={100}
+                height={100}
+              />
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div
+  className="service__details__heading"
+  data-aos="fade-up"
+  data-aos-duration="1500"
+>
+  <h5>{activeImageTitle}</h5>
+</div>
+
+                
+
                       <div className="service__details__heading">
                         <h2>{program.title}</h2>
 
@@ -208,12 +220,12 @@ const ProjectDetailsPrimary = () => {
             </div>
           </div>
         </div>
-        {program && <ProcessTimeline  ProcessandTimeline ={program?.ProcessandTimeline} />}
-        <EligibilityRequirements />
+        {program && <ResidencyTimeline  ProcessandTimeline ={program?.ProcessandTimeline} />}
+        <Residencyfamilybenefit familybenefit={program?.FamilyBenefits} />
       </div>
     </div>
     </PageWrapper>
   );
 };
 
-export default ProjectDetailsPrimary;
+export default ResidencyDetailsPrimary;
