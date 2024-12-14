@@ -207,18 +207,7 @@ const ProjectDetailsPrimary = () => {
                   </p>
                 </div>
 
-                {/* <div
-                  className="project__details__button"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                >
-                  <Link className="default__button" href="#">
-                    PREV.PROJECT
-                  </Link>
-                  <Link className="default__button" href="#">
-                    NEXT.PROJECT
-                  </Link>
-                </div> */}
+               
               </div>
             </div>
           </div>

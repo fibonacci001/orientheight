@@ -14,18 +14,18 @@ const Download = () => {
       <div className="sidebar__button">
         <Link
           className="default__button sidebar__button__1"
-          target="_blank"
-          href="/download.pdf"
+      
+          href="/Programpdfform"
         >
           Download PDF<i className="icofont-file-pdf"></i>
         </Link>
-        <Link
+        {/* <Link
           className="default__button btn__black"
           target="_blank"
           href="/download.docx"
         >
           Download DOC<i className="icofont-file-document"></i>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
