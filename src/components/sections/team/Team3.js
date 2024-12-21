@@ -23,7 +23,7 @@ const Team3 = ({ type, label }) => {
                 </span>
               </div>
               <div className="section__title__heading sp_bottom_20">
-                <h3>Meet the Experts Behind Orient Height.</h3>
+                <h3>Meet the Experts Behind OrientHeight.</h3>
               </div>
               <div className="section__title__text__3">
                 <p>

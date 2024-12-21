@@ -230,7 +230,7 @@ const ContactPrimary = () => {
                 </div>
                 <div className="contact__text">
                   <h6>Hours:</h6>
-                  <p>Monday - Friday: 8 AM - 5:30 PM</p>
+                  <p>Monday - Friday: 8 AM - 5:00 PM</p>
                   <p>Saturday - Sunday: Closed</p>
                 </div>
               </div>
@@ -369,11 +369,13 @@ const ContactPrimary = () => {
                
                 <div className="contact__text">
                   <h6>Location:</h6>
-                  <p>5th floor, suite F5.2, Rivers House</p>
-                  <p>Central Business District Abuja</p>
+                  <p>5th FLOOR , ELIZADE TOWERS, PLOT 596, INDEPENDENCE AVENUE,</p>
+                  <p>CENTRAL BUSINESS DISTRICT,ABUJA.
+                  NIGERIA</p>
                 </div>
-
-                <div className="contact__icon">
+                <br/>
+                <br/>
+                {/* <div className="contact__icon">
                   <span>
                     <svg
                       width="25"
@@ -418,12 +420,12 @@ const ContactPrimary = () => {
                       </defs>
                     </svg>
                   </span>
-                </div>
-                <div className="contact__text">
+                </div> */}
+                {/* <div className="contact__text">
                  
                   <p>5th floor, suite F5.2, Rivers House</p>
                   <p>Central Business District Abuja</p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div

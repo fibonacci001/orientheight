@@ -19,7 +19,7 @@ const NewsLetter = ({ style }) => {
         }`}
       >
         <div className="footer__menu__title">
-          <h6>SUBSCRIP NEWSLETTER :</h6>
+          <h6>SUBSCRIBE NEWSLETTER :</h6>
         </div>
         <div className="footer__input">
           <input type="text" placeholder="Enter your email:" />

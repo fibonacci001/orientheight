@@ -31,7 +31,7 @@ const About3 = ({ type }) => {
                 </div>
                 <div className="section__title__heading">
                   <h3>
-                  Why Choose Orient Height?
+                  Why Choose OrientHeight?
                   </h3>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const About3 = ({ type }) => {
                   </div>
                   <div className="about__text__2">
                     <p>
-                    Orient Height delivers expertly guided, {" "}
+                    OrientHeight delivers expertly guided, {" "}
                       <Link href="/about">
                       secure pathways for citizenship, 
                       </Link>{" "}
