@@ -2,10 +2,13 @@ import Home3Main from "@/components/layout/main/Home3Main";
 import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
-export const metadata = {
-  title: "orientheight website",
-  description: "citizenship, residency, tax",
-};
+// export const metadata = {
+//   title: "orientheight website",
+//   description: "citizenship, residency, tax",
+// };
+import { mainNavMetadata } from '@/libs/metadata'
+
+export const metadata = mainNavMetadata.home
 export default function Home3() {
   return (
     <PageWrapper

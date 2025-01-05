@@ -2,10 +2,9 @@ import ContactMain from "@/components/layout/main/ContactMain";
 import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
-export const metadata = {
-  title: "Contact | Bastun- Business Consulting Next Js Template",
-  description: "Contact | Bastun- Business Consulting Next Js Template",
-};
+import { mainNavMetadata } from '@/libs/metadata'
+
+export const metadata = mainNavMetadata.contact
 export default function Contact() {
   return (
     <PageWrapper

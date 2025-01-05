@@ -2,10 +2,10 @@ import Citizenshipmain from "@/components/layout/main/citizenship";
 import ProjectsMain from "@/components/layout/main/ProjectsMain";
 import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
-export const metadata = {
-  title: "Projects | Bastun- Business Consulting Next Js Template",
-  description: "Projects | Bastun- Business Consulting Next Js Template",
-};
+import { mainNavMetadata } from '@/libs/metadata'
+
+export const metadata = mainNavMetadata.citizenship
+console.log(metadata)
 export default function Ohcitizenship() {
   return (
     // <PageWrapper

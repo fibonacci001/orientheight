@@ -3,10 +3,13 @@ import Residencymain from "@/components/layout/main/residency";
 import ProjectsMain from "@/components/layout/main/ProjectsMain";
 import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
-export const metadata = {
-  title: "Projects | Bastun- Business Consulting Next Js Template",
-  description: "Projects | Bastun- Business Consulting Next Js Template",
-};
+import { mainNavMetadata } from '@/libs/metadata'
+
+export const metadata = mainNavMetadata.citizenship
+// export const metadata = {
+//   title: "Projects | Bastun- Business Consulting Next Js Template",
+//   description: "Projects | Bastun- Business Consulting Next Js Template",
+// };
 export default function Allohresidency() {
   return (
     <PageWrapper

@@ -18,6 +18,7 @@ const filterAccordions = [
     inputName: "brand",
     checks: ["Apple", "Amazon"],
   },
+
   {
     controllerName: "Color",
     inputName: "color",
@@ -32,6 +33,7 @@ const filterAccordions = [
       "Yellow",
     ],
   },
+  
   {
     controllerName: "Size",
     inputName: "size",

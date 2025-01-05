@@ -9,6 +9,10 @@ import "swiper/css/pagination";
 import "./globals.css";
 // import "@/assets/css/responsive.css";
 
+import { baseMetadata } from '@/libs/metadata'
+
+export const metadata = baseMetadata
+
 const inter = Inter({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
@@ -16,10 +20,11 @@ const inter = Inter({
   variable: "--fontInter",
 });
 
-export const metadata = {
-  title: "Home 1 | Bastun- Business Consulting Next Js Template",
-  description: "Home 1 | Bastun- Business Consulting Next Js Template",
-};
+// export const metadata = {
+//   title: "Home 1 | Bastun- Business Consulting Next Js Template",
+//   description: "Home 1 | Bastun- Business Consulting Next Js Template",
+// };
+
 
 export default function RootLayout({ children }) {
   return (

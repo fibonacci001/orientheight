@@ -255,7 +255,12 @@ const NavbarMobile = () => {
         
       ],
     },
-
+    {
+      name: "Realstate",
+      toggler: false,
+      path: "/realestate",
+      dropdown: null,
+    },
     {
       name: "About",
       toggler: false,

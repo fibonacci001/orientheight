@@ -140,7 +140,7 @@ const ResidencySidebar = ({ OneLineInfo }) => {
           </div>
         </div>
 
-        {/* <Download Brochurelink={info.Brochurelink} /> */}
+        <Download Brochurelink={info.Brochurelink} />
       </div>
     </div>
   );

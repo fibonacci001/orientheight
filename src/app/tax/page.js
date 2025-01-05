@@ -3,11 +3,9 @@ import Taxcom from "@/components/layout/main/Taxcomponentmain";
 import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
-export const metadata = {
-  title: "Services Details | Bastun- Business Consulting Next Js Template",
-  description:
-    "Services Details | Bastun- Business Consulting Next Js Template",
-};
+import { mainNavMetadata } from '@/libs/metadata'
+
+export const metadata = mainNavMetadata.tax
 
 export default  function Tax() {
   

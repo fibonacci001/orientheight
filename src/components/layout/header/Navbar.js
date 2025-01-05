@@ -428,7 +428,7 @@ const Navbar = () => {
             },
             {
               name: "Realestate",
-              path: "/",
+              path: "/realstate",
               label: "International",
             },
          
