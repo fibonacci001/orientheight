@@ -258,7 +258,7 @@ const NavbarMobile = () => {
     {
       name: "Realstate",
       toggler: false,
-      path: "/realestate",
+      path: "/realstate",
       dropdown: null,
     },
     {
