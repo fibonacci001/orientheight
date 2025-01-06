@@ -1,13 +1,14 @@
 import HeroInner from "@/components/sections/hero-banners/HeroInner";
+import RealEstatePrimary from "@/components/layout/main/Realestateprimary";
 
-import Realestateprimary from "./Realestateprimary"
 import React from "react";
 
 const Realestatemain = () => {
   return (
     <main>
       <HeroInner title={"Realestate"} currentItem={"Property Listings"} />
-      <Realestateprimary  />
+      
+      <RealEstatePrimary/>
      
     </main>
   );
