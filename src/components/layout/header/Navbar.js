@@ -488,7 +488,7 @@ const Navbar = () => {
           ? "#blog__area"
           : isOnepage && style === 3
           ? "#tb__contact"
-          : "/property",
+          : "/comparison",
       dropdown: null,
     },
 

@@ -1,4 +1,6 @@
 
+"use client"
+
 import ThemeController from "@/components/shared/others/ThemeController";
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
 
@@ -15,8 +17,8 @@ export default function Realestate() {
       headerBg={"black"}
       footerBg={"black"}
     >
-      <h1>this is real estate</h1>
-      {/* <ThemeController /> */}
+      
+      <ThemeController />
       <Realestatelisting />
     </PageWrapper>
     
