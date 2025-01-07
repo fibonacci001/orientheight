@@ -13,6 +13,12 @@ const nextConfig = {
     ],
     unoptimized: true,  
   },
+    // Add this section
+    generateStaticParams: async () => {
+      return [{
+        property: ['property']
+      }]
+    },
   env: {
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
     NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,

@@ -12,9 +12,18 @@
     ],
     "rewrites": [
       {
+        "source": "/property/**",
+        "destination": "/property/index.html"
+      },
+      {
+        "source": "/property",
+        "destination": "/property/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "cleanUrls": true
   }
 }
