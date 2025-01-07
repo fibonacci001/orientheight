@@ -1,4 +1,4 @@
-import ShopMain from "@/components/layout/main/ShopMain";
+"use client"
 
 import Realestatemain from "@/components/layout/main/Realestatemain";
 
