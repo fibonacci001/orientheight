@@ -3,8 +3,8 @@ import { useMemo } from "react";
 import { useEffect, useState } from "react";
 import { db } from "@/libs/firebase/clientApp";
 import { collection, getDocs } from "firebase/firestore";
-import PropertyCard from "../../../app/realstate/PropertyCard";
-import PropertyFilters from "../../../app/realstate/PropertyFilters";
+import PropertyCard from "../../../app/property/PropertyCard";
+import PropertyFilters from "../../../app/property/PropertyFilters";
 
 const RealEstatePrimary = () => {
   // Initialize all our state variables

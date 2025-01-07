@@ -427,8 +427,8 @@ const Navbar = () => {
               label: null,
             },
             {
-              name: "Realestate",
-              path: "/realstate",
+              name: "property",
+              path: "/property",
               label: "International",
             },
          
@@ -488,7 +488,7 @@ const Navbar = () => {
           ? "#blog__area"
           : isOnepage && style === 3
           ? "#tb__contact"
-          : "/comparison",
+          : "/property",
       dropdown: null,
     },
 

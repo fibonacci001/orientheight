@@ -11,7 +11,7 @@ const nextConfig = {
         hostname: 'res.cloudinary.com',
       },
     ],
-    unoptimized: true,  // Add this line for static export
+    unoptimized: true,  
   },
   env: {
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,

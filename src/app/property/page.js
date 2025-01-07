@@ -15,7 +15,8 @@ export default function Realestate() {
       headerBg={"black"}
       footerBg={"black"}
     >
-      <ThemeController />
+      <h1>this is real estate</h1>
+      {/* <ThemeController /> */}
       <Realestatelisting />
     </PageWrapper>
     
