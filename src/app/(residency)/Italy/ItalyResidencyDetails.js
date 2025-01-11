@@ -181,11 +181,11 @@ const ItalyResidencyDetails = () => {
                       <h6>{program.section2title}:</h6>
                     </div>
                     <p>{program.section2content1}</p>
-                    <ul>
+                    <div>
                       {program.section2content2?.map((item, idx) => (
-                        <li key={idx}>{item}</li>
+                        <p key={idx}>{item}</p>
                       ))}
-                    </ul>
+                    </div>
                     <p className="project__details__challenges__text">
                       {program.section2content3}
                     </p>

@@ -202,7 +202,7 @@ const NavbarMobile = () => {
       dropdown: true,     // Changed to always true instead of conditional
       dropdownItems: [    // Update these items for your citizenship dropdown
         {
-          name: "Antigua",
+          name: "Antigua and Barbuda",
           path: "/Antigua",
         },
         {
@@ -210,7 +210,7 @@ const NavbarMobile = () => {
           path: "/Malta",
         },
         {
-          name: "st kitts",
+          name: "st. kitts",
           path: "/stkitts",
         },
         {
@@ -259,6 +259,18 @@ const NavbarMobile = () => {
       name: "property",
       toggler: false,
       path: "/property",
+      dropdown: null,
+    },
+    {
+      name: "Program Comparison",
+      toggler: false,
+      path: "/comparison",
+      dropdown: null,
+    },
+    {
+      name: "Tax",
+      toggler: false,
+      path: "/tax",
       dropdown: null,
     },
     {

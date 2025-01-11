@@ -95,7 +95,7 @@ const About3 = ({ type }) => {
                   </div>
                   <div className="about__button">
                     <ButtonPrimary
-                      text="Contct us"
+                      text="Contact us"
                       path="/contact"
                       button={type === 2 ? "" : "white"}
                     />

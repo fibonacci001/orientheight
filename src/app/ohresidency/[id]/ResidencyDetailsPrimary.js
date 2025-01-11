@@ -191,17 +191,28 @@ const ResidencyDetailsPrimary = () => {
                   <div className="project__details__challenges__heading">
                     <h6>{program.section2title}:</h6>
                   </div>
+                  <div className="service__details__text"
+                  
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  >
+
+                  
                   <p>
                     {program.section2content1}
                   </p>
-                  <ul>
+                  <div className="service__details__text"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  >
                     {program.section2content2?.map((item, idx) => (
-                      <li key={idx}>{item}</li>
+                      <p key={idx}  >{item}</p>
                     ))}
-                  </ul>
+                  </div>
                   <p className="project__details__challenges__text">
                     {program.section2content3}
                   </p>
+                  </div>
                 </div>
 
                 {/* <div

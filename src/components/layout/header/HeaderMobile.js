@@ -51,7 +51,7 @@ const HeaderMobile = () => {
            
             <div className="headerarea__button">
               <ButtonPrimary
-                text="QUATE"
+                text="QUOTE"
                 path="/contact"
                 button={!style || style === 3 ? "" : "white"}
               />

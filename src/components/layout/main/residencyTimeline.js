@@ -50,10 +50,13 @@ const ResidencyTimeline = ({ProcessandTimeline}) => {
     return () => window.removeEventListener('scroll', updateTimelineState);
   }, []);
 
+
+  
+
   return (
-    <div className="timeline-wrapper">
-      <div className="title">
-        <h4>PROCESS & TIMELINE</h4>
+    <div className="timeline-wrapper service__details__text">
+      <div className="title project__details__challenges__heading">
+        <p >PROCESS & TIMELINE</p>
       </div>
       
       <div className="timeline-container">

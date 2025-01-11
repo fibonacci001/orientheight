@@ -113,8 +113,8 @@
   --blackBlue: #1A1A1A; /* Charcoal Black */
   --headingColor: #070707; /* Deep Black */
   --contentColor: #4D4D4D; /* Medium Neutral Grey for readable text */
-  --primaryColor: #ECB907; /* Warm Gold */
-  --secondaryColor: #D4A017; /* Softened Gold for contrast */
+  --primaryColor: #c29907; /* Warm Gold */
+  --secondaryColor: #c4931a; /* Softened Gold for contrast */
   --greyColor: #F3F3F3; /* Light Grey for section backgrounds */
   --borderColor: #E6E6E6; /* Light Grey for borders */
   --borderColor2: #FAE6C4; /* Pale Beige with a golden tint */
@@ -123,11 +123,11 @@
   --navyBlue2: #243B4A; /* Muted Navy for a subtle touch */
   --pinkcolor: #FFF6E5; /* Light Cream for soft highlights */
   --violet: #5F4B32; /* Coffee Brown for rich, elegant accents */
-  --yellow: #ECB907; /* Gold (as Primary) */
+  --yellow: #c29f07; /* Gold (as Primary) */
   --gradientColor: linear-gradient(
     90deg,
-    #ECB907 0%,
-    #D4A017 50%,
+    #c99d01 0%,
+    #c7950a 50%,
     #070707 100%
   ); /* Gold to softer gold to black */
   --gradientColor2: linear-gradient(
@@ -137,7 +137,7 @@
   ); /* Gold-tinted transparency to black */
   --gradientColor3: linear-gradient(
     90deg,
-    #D4A017 0%,
+    #c5900b 0%,
     rgba(255, 255, 255, 0) 100%
   ); /* Soft Gold to Transparent */
   --borderRadius: 8px;

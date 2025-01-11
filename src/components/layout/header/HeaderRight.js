@@ -16,7 +16,7 @@ const HeaderRight = () => {
             
             <div className="headerarea__button">
               <ButtonPrimary
-                text="GET FREE QUATE"
+                text="GET FREE QUOTE"
                 button={!style ? "" : "white"}
                 path="/contact"
               />

@@ -36,17 +36,17 @@ const getAllServices = () => {
           {
             id: 16,
             title: "REAL ESTATE ",
-            desc: "Discover premium real estate options that not only qualify for residency but also grow your investment portfolio.",
+            desc: "Discover premium real estate options that does not only qualify for residency but also grow your investment portfolio.",
             detailsImg: projectImage15,
             img: serviceImage15,
             category: "Business Process",
             duration: "1900",
-            url: 'https://www.facebook.com/'
+            url: '/property'
           },
           {
             id: 17,
             title: "TAX",
-            desc: "Benefit from bespoke tax solutions designed to optimize your financial portfolio, ensure compliance, and maximize wealth preservation.",
+            desc: "Benefits from our bespoke tax solution designed to optimize your financial portfolio, ensure compliance, and maximize wealth preservation.",
             detailsImg: projectImage14,
             img: serviceImage16,
             category: "Financial Restructuring",

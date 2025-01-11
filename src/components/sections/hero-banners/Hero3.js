@@ -45,7 +45,7 @@ const Hero3 = ({ type }) => {
           </>
         ),
       desc: "Discover residency programs that open doors to new markets, secure environments, and unparalleled access to global networks.",
-      path: "/services",
+      path: "/allohresidencyprogram",
       img: type === 2 ? heroBgImage33 : heroBgImage32,
     },
     {
@@ -63,7 +63,7 @@ const Hero3 = ({ type }) => {
           </>
         ),
       desc: "Leverage global real estate investments to grow and protect your wealth while enhancing your lifestyle.",
-      path: "/services",
+      path: "/property",
       img: type === 2 ? heroBgImage2 : heroBgImage33,
     },
   ];
