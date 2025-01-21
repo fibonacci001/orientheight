@@ -20,13 +20,13 @@ const TeamPrimary = ({ pt, type }) => {
       <div className="container">
         <div className="row">
           {!team?.length ? (
-            <Nodata text={"No Member"} />
+            <Nodata text={""} />
           ) : (
             team?.map((teamSingle, idx) => (
               <TeamCard2 key={idx} teamSingle={teamSingle} type={2} />
             ))
           )}
-          <div
+          {/* <div
             className={`${type === 2 ? "col-xxl-3 col-xl-4" : "col-xl-12"} `}
             data-aos="fade-up"
             data-aos-duration="1500"
@@ -36,7 +36,7 @@ const TeamPrimary = ({ pt, type }) => {
                 JOIN WITH US
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

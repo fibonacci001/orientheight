@@ -1,7 +1,7 @@
 import TeamCard2 from "@/components/shared/cards/TeamCard2";
 import getTeamMembers from "@/libs/getTeamMembers";
 const Team3 = ({ type, label }) => {
-  const team = getTeamMembers().slice(18, 21);
+  const team = getTeamMembers();
 
   return (
     <div className="team__member__3  sp_top_140 sp_bottom_140 special__spacing">

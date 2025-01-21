@@ -8,7 +8,7 @@ import { useParams } from "next/navigation";
 const TeamDetailsPrimary = ({ pb }) => {
   const { id: currentId } = useParams();
   const team = getTeamMembers();
-  const { id, name, desig, img } = team?.find(
+  const { id, name, desig, img,description1, description2 } = team?.find(
     ({ id }) => id === parseInt(currentId)
   );
 
@@ -66,18 +66,10 @@ const TeamDetailsPrimary = ({ pb }) => {
                 </div>
                 <div className="team__details__project__manager__text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                  {description1}
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                   {description2}
                   </p>
                 </div>
                 <div className="team__details__project__manager__number">

@@ -13,23 +13,23 @@ const GalleryFooter = () => {
     },
     {
       img: footerSmallImage2,
-      path: "/blogs/2",
+      path: "/property",
     },
     {
       img: footerSmallImage3,
-      path: "/blogs/3",
+      path: "/property",
     },
     {
       img: footerSmallImage4,
-      path: "/blogs/4",
+      path: "/property",
     },
     {
       img: footerSmallImage5,
-      path: "/blogs/5",
+      path: "/property",
     },
     {
       img: footerSmallImage1,
-      path: "/blogs/6",
+      path: "/property",
     },
   ];
   return (
