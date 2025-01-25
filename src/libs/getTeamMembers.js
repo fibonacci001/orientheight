@@ -14,12 +14,13 @@ import teamImage13 from "@/assets/img/team/team_13.png";
 import teamImage14 from "@/assets/img/team/team_14.png";
 import teamImage15 from "@/assets/img/team/GloriaChindah.png";
 import teamImage16 from "@/assets/img/team/PaulJinadu_marketing.png";
-import teamImage17 from "@/assets/img/team/team_17.png";
+import teamImage17 from "@/assets/img/team/Annie.png";
 const getTeamMembers = () => {
   const team = [
     {
       id: 1,
-      name: "Dr. Gloria Chindah (FIMC, CIM)",
+      name: "Dr. Gloria Chindah ",
+      sub: '(FIMC, CIM)',
       img: teamImage15,
       desig: "Managing Director",
       description1: 'Dr. Gloria Chindah is a distinguished leader with over 22 years of expertise in the investment and financial sectors. Her dynamic career encompasses a broad range of skills, enabling her to successfully navigate complex investment landscapes and deliver exceptional results. With advanced degrees and certifications from globally recognized institutions, she holds a robust academic and professional foundation in finance, investment, and management.',
@@ -35,13 +36,15 @@ const getTeamMembers = () => {
       description2: 'Paul collaborates with cross-functional teams to ensure seamless delivery of high-performance marketing strategies that resonate with target audiences. By leveraging his in-depth knowledge of market trends and consumer behavior, he plays a pivotal role in strengthening Orient Height’s brand presence and achieving sustained revenue growth.',
       duration: "1700",
     },
-    // {
-    //   id: 3,
-    //   name: "ONIDES BNIDE",
-    //   img: teamImage17,
-    //   desig: "Project Manager",
-    //   duration: "1900",
-    // },
+    {
+      id: 3,
+      name: "Mrs. Annie Baron-Benjamin",
+      img: teamImage17,
+      desig: "Partner",
+      description1: 'Mrs. Annie Baron-Benjamin brings over 20 years of management expertise, having held leadership roles in prominent organizations. She served as the CEO of Paramount Printers Ltd., a leading printing firm, and as a Manager at The Chronicle Newspaper Ltd., one of the nation’s most respected publications.',
+      description2: 'Since 2014, Mrs. Baron-Benjamin has specialized in assisting families with obtaining second citizenship, helping hundreds achieve greater flexibility for work, education, and global travel. Her wealth of experience, combined with her dedication to client success, makes her an invaluable partner in delivering tailored solutions for Orient Height’s discerning clientele.',
+      duration: "1900",
+    },
     // {
     //   id: 4,
     //   name: "QNIDE GRIFFITH",

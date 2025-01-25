@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const TeamCard2 = ({ teamSingle, type }) => {
-  const { id, name, desig, img, duration } = teamSingle;
+  const { id, name,sub, desig, img, duration } = teamSingle;
   return (
     <div
       className={`  ${
@@ -22,7 +22,8 @@ const TeamCard2 = ({ teamSingle, type }) => {
           </div>
           <div className="team__member__name">
             <h6>
-              <Link href={`/team/${id}`}>{name}</Link>
+              <Link href={`/team/${id}`}>{name} </Link>
+              <span style={{ fontSize: '10px' }}>{sub}</span>
             </h6>
             <p>{desig}</p>
           </div>

@@ -9,7 +9,7 @@ const GalleryFooter = () => {
   const items = [
     {
       img: footerSmallImage1,
-      path: "/blogs/1",
+      path: "/property",
     },
     {
       img: footerSmallImage2,
