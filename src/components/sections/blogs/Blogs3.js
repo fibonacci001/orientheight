@@ -43,16 +43,16 @@ const Blogs3 = ({ blogsType }) => {
               )}
 
               <div className="section__title__heading">
-                <h3>IN-DEPTH ANALYSIS AND DISCUSSION</h3>
+                <h3>Stay Ahead with Expert Insights</h3>
               </div>
               <div className="blog__4__section__title__text">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore.
+                Explore the latest trends in investment migration, global mobility, and strategic tax planning—all in one place.
                 </p>
               </div>
               <div className="section__title__button">
-                <ButtonPrimary text="VIEW ARCHIVE POST" path="/blogs" />
+                <ButtonPrimary text="View More Posts" path="/" />
+                {/* <ButtonPrimary text="VIEW ARCHIVE POST" path="/blogs" /> */}
               </div>
             </div>
           </div>

@@ -39,9 +39,14 @@ const BlogCard3 = ({ blog, blogsType, bg }) => {
           <p>{desc}</p>
         </div>
         <div className="blog__4__button">
-          <ButtonPrimary
+          {/* <ButtonPrimary
             text={"READ MORE"}
             path={`/blogs/${id}`}
+            button={blogsType === 4 || bg === "pink" ? "" : "black"}
+          /> */}
+          <ButtonPrimary
+            text={"READ MORE"}
+            path='/'
             button={blogsType === 4 || bg === "pink" ? "" : "black"}
           />
         </div>

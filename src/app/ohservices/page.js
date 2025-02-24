@@ -39,7 +39,7 @@ headerStyle={3}
 <main>
     <ThemeController />
  
-<HeroInner title={"All Project"} currentItem={"All Project"} />
+<HeroInner title={"All Programs"} currentItem={"All Programs"} />
     <Ohcitizenship />
    <h1 className="black"> residency</h1>
    

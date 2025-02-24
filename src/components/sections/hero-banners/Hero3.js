@@ -2,6 +2,8 @@
 import heroBgImage1 from "@/assets/img/herobaner/beach.jpg";
 import heroBgImage2 from "@/assets/img/herobaner/herobanner__seo__2.jpg";
 
+import heroImage1 from "@/assets/img/herobaner/taxbanner.jpg";
+
 import heroBgImage31 from "@/assets/img/herobaner/beach.jpg";
 import heroBgImage32 from "@/assets/img/herobaner/skyline.jpg";
 import heroBgImage33 from "@/assets/img/herobaner/slider_33.jpg";
@@ -62,9 +64,27 @@ const Hero3 = ({ type }) => {
             <span className="text__gradient">Investments</span>
           </>
         ),
-      desc: "Leverage global real estate investments to grow and protect your wealth while enhancing your lifestyle.",
+      desc: "Leverage on global real estate investments to grow and protect your wealth while enhancing your lifestyle.",
       path: "/property",
       img: type === 2 ? heroBgImage2 : heroBgImage33,
+    },
+    {
+      title:
+        type === 2 ? (
+          <>
+            Optimize Your Wealth{" "}
+            <span className="ht__gradient__bg">with Strategic Tax Solutions</span>
+          </>
+        ) : (
+          <>
+            <span className="ht__white__bg"> Optimize</span> Your Wealth{" "}
+            <span className="ht__gradient__bg">with Strategic </span>{" "}
+            <span className="text__gradient">Tax Solutions</span>
+          </>
+        ),
+      desc: "Maximize financial efficiency and secure your global assets with bespoke tax planning services tailored for high-net-worth individuals and international investors.",
+      path: "/tax",
+      img: type === 2 ? heroImage1 : heroImage1,
     },
   ];
   return (

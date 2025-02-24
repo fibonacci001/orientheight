@@ -20,7 +20,7 @@ const Features = () => {
                 </p>
               </div>
               <div className="working__button">
-                <ButtonPrimary text="Compare Programs" path="/services" />
+                <ButtonPrimary text="Compare Programs" path="/comparison" />
               </div>
             </div>
           </div>

@@ -86,9 +86,9 @@ const getAllBlogs = () => {
     {
       id: 7,
       title:
-        "The Ultimate Guide to Choosing the Right Marketing Consultant for Your Brand",
+        "The Ultimate Guide to Second Citizenship",
       img: blogImage7,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      desc: "Discover how high-net-worth individuals can leverage citizenship-by-investment programs to secure global mobility and lifestyle benefits.",
       tag: "Management",
       category: "Strategic Planning",
       day: 19,
@@ -99,9 +99,9 @@ const getAllBlogs = () => {
     {
       id: 8,
       title:
-        "Corporate Strategy: How to Align Business Goals with Organizational Success",
+        "Corporate Strategy for the Modern Investor",
       img: blogImage8,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      desc: "Uncover the latest approaches to international tax optimization and strategic real estate investments for sustained business growth.",
       tag: "Start-up",
       category: "Supply Chain Optimization",
       day: 12,

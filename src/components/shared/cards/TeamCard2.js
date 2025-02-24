@@ -27,7 +27,7 @@ const TeamCard2 = ({ teamSingle, type }) => {
             </h6>
             <p>{desig}</p>
           </div>
-          <div className="team__member__icon">
+          {/* <div className="team__member__icon">
             <ul>
               <li>
                 <Link
@@ -48,7 +48,7 @@ const TeamCard2 = ({ teamSingle, type }) => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

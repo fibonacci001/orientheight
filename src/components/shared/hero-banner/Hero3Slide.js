@@ -19,7 +19,7 @@ const Hero3Slide = ({ slide }) => {
               <p>{desc}</p>
             </div>
             <div className="herobanner__button">
-              <ButtonPrimary text={"OUR ALL SERVICES"} path={path} />
+              <ButtonPrimary text={"OUR SERVICES"} path={path} />
             </div>
           </div>
         </div>

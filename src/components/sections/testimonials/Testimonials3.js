@@ -12,7 +12,7 @@ const Testimonials3 = ({ type, pb, pt }) => {
     {
       id: 1,
       name: "Sophia M.",
-      img: testimonialImage4,
+      // img: testimonialImage4,
       imgSmall: testimonialImage4,
       desig: "Business Man",
       desc: "“Thanks to Orient Height, my family now has a secure European residency. We’re enjoying the benefits of expanded business opportunities and a better quality of life.”",
@@ -20,7 +20,7 @@ const Testimonials3 = ({ type, pb, pt }) => {
     {
       id: 2,
       name: "Elena F.",
-      img: testimonialImage5,
+      // img: testimonialImage5,
       imgSmall: testimonialImage5,
       desig: "Real Estate Investor",
       desc: "“Their real estate advisory opened up investment options I hadn’t considered. Appreciate the confidentiality and tailored approach. i will Highly recommend them, Great returns so far!”",
@@ -28,15 +28,15 @@ const Testimonials3 = ({ type, pb, pt }) => {
     {
       id: 3,
       name: "Maya A.",
-      img: testimonialImage6,
+      // img: testimonialImage6,
       imgSmall: testimonialImage6,
-      desig: "Business Man",
+      desig: "Business Owner",
       desc: "“My journey to global mobility and peace of mind has been made possible by Orient Height's dedication and expertise.Their guidance on global real estate investment helped us secure residency and a sound property investment.”",
     },
     {
       id: 4,
       name: "David R",
-      img: testimonialImage4,
+      // img: testimonialImage4,
       imgSmall: testimonialImage4,
       desig: "Business Owner",
       desc: "“The tax optimization services from Orient Height were transformative, allowing us to protect our wealth while remaining compliant. Quick, efficient, and always there to answer questions.”",
@@ -44,7 +44,7 @@ const Testimonials3 = ({ type, pb, pt }) => {
     {
       id: 5,
       name: "Ahmed K.",
-      img: testimonialImage5,
+      // img: testimonialImage5,
       imgSmall: testimonialImage5,
       desig: "Entrepreneur",
       desc: "“The tax planning service was insightful and exactly what my family needed for our transition. We’ve experienced nothing but professionalism and attention to detail from the Orient Height team.”",
