@@ -28,7 +28,7 @@ const Team3 = ({ type, label }) => {
               <div className="section__title__text__3">
                 <p>
                 A network of dedicated professionals, each bringing unique expertise in law, finance, 
-                and immigration strategy to serve your global ambitions.
+                and immigration strategies to serve your global ambitions.
                 </p>
               </div>
             </div>

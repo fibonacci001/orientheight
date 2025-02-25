@@ -315,6 +315,52 @@ const ContactPrimary = () => {
               </div>
 
               <div
+  className="contact__single__item"
+  data-aos="fade-up"
+  data-aos-duration="1500"
+>
+  <div className="contact__icon">
+    <span>
+      <svg
+        width="25"
+        height="25"
+        viewBox="0 0 25 25"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g clipPath="url(#clip0_1501_3772)">
+          <path
+            d="M22.9167 5.20833H2.08333C1.49479 5.20833 0.9375 5.63542 0.9375 6.25V18.75C0.9375 19.3646 1.49479 19.7917 2.08333 19.7917H22.9167C23.5052 19.7917 24.0625 19.3646 24.0625 18.75V6.25C24.0625 5.63542 23.5052 5.20833 22.9167 5.20833ZM21.6146 6.77083L13.2812 12.5521C12.8385 12.8854 12.1615 12.8854 11.7188 12.5521L3.38542 6.77083H21.6146ZM22.1354 18.2292H2.86458V7.8125L10.6771 13.2812C11.5625 13.9271 12.6823 13.9271 13.5677 13.2812L21.3802 7.8125V18.2292H22.1354Z"
+            fill="url(#paint0_linear_1501_3772)"
+          />
+        </g>
+        <defs>
+          <linearGradient
+            id="paint0_linear_1501_3772"
+            x1="0.9375"
+            y1="12.5"
+            x2="24.0625"
+            y2="12.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stopColor="#00229E" />
+            <stop offset="0.479167" stopColor="#6E1299" />
+            <stop offset="1" stopColor="#FE0094" />
+          </linearGradient>
+          <clipPath id="clip0_1501_3772">
+            <rect width="25" height="25" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+    </span>
+  </div>
+  <div className="contact__text">
+    <h6>Email Us:</h6>
+    <p>contact@oreintheight.com</p>
+  </div>
+</div>
+
+              <div
                 className="contact__single__item"
                 data-aos="fade-up"
                 data-aos-duration="1500"

@@ -15,7 +15,7 @@ const Testimonials3 = ({ type, pb, pt }) => {
       // img: testimonialImage4,
       imgSmall: testimonialImage4,
       desig: "Business Man",
-      desc: "“Thanks to Orient Height, my family now has a secure European residency. We’re enjoying the benefits of expanded business opportunities and a better quality of life.”",
+      desc: "“Thanks to Orientheight, my family now has a secure European residency. We’re enjoying the benefits of expanded business opportunities and a better quality of life.”",
     },
     {
       id: 2,

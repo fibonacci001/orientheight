@@ -138,7 +138,7 @@ const Taxcom = () => {
                 data-aos-duration="1500"
               >
                 <Link className="default__button" href="/contact">
-                  GET A FREE QUOTE
+                Consult us now
                 </Link>
               </div>
             </div>

@@ -32,7 +32,7 @@ const TeamDetailsPrimary = ({ pb }) => {
                     <Image src={img} alt="" />
                   </div>
 
-                  <div className="team__member__icon">
+                  {/* <div className="team__member__icon">
                     <ul>
                       <li>
                         <Link
@@ -56,7 +56,7 @@ const TeamDetailsPrimary = ({ pb }) => {
                         </Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="team__details__project__manager__content">

@@ -24,7 +24,7 @@ const getTeamMembers = () => {
       img: teamImage15,
       desig: "Managing Director",
       description1: 'Dr. Gloria Chindah is a distinguished leader with over 22 years of expertise in the investment and financial sectors. Her dynamic career encompasses a broad range of skills, enabling her to successfully navigate complex investment landscapes and deliver exceptional results. With advanced degrees and certifications from globally recognized institutions, she holds a robust academic and professional foundation in finance, investment, and management.',
-      description2: 'As the Managing Director of Orient Height Ltd., Dr. Chindah is committed to driving the company’s vision and growth. Her strategic leadership and innovative approach ensure the delivery of bespoke investment solutions tailored to meet the unique needs of high-net-worth clients. Under her guidance, Orient Height continues to set the standard in investment migration, real estate, and global mobility services.',
+      description2: 'As the Managing Director of Orientheight proalliance limited., Dr. Chindah is committed to driving the company’s vision and growth. Her strategic leadership and innovative approach ensure the delivery of bespoke investment solutions tailored to meet the unique needs of high-net-worth clients. Under her guidance, Orient Height continues to set the standard in investment migration, real estate, and global mobility services.',
       duration: "1500",
     },
     {

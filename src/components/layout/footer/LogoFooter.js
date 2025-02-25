@@ -32,22 +32,22 @@ const LogoFooter = ({ style }) => {
         <div className="footer__icon">
           <ul>
             <li>
-              <Link href="https://www.facebook.com">
+              <Link href="https://web.facebook.com/profile.php?id=100090657315788">
                 <i className="icofont-facebook"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://x.com">
+              <Link href="https://x.com/orientheight">
                 <i className="icofont-twitter"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://www.skype.com">
-                <i className="icofont-skype"></i>
+              <Link href="https://www.instagram.com/orientheight_ltd/">
+                <i className="icofont-instagram"></i>
               </Link>
             </li>
             <li>
-              <Link href="https://www.linkedin.com">
+              <Link href="https://www.linkedin.com/company/101643642">
                 <i className="icofont-linkedin"></i>
               </Link>
             </li>
